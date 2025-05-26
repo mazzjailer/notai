@@ -1,9 +1,10 @@
-import ChatBar from "@/components/chat-bar";
+import ChatWrapper from "@/components/chat-wrapper";
 
 export default function Home() {
+  
   return (
-    <>
-      <ChatBar/>
-    </>
+    <div className="flex flex-col h-full items-center">
+      <ChatWrapper />
+    </div>
   );
 }
