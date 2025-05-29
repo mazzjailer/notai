@@ -27,9 +27,14 @@ const Messages = ({ messages }: MessageProps) => {
                 }`}
               >
                 {message.role === "user" ? (
-                  <p className="text-lg md:text-lg">{message.content}</p>
+                  <p className="text-lg md:text-lg" dir="auto">
+                    {message.content}
+                  </p>
                 ) : (
-                  <div className="text-lg md:text-lg prose dark:prose-invert">
+                  <div
+                    className="text-lg md:text-lg prose dark:prose-invert"
+                    dir="auto"
+                  >
                     <ReactMarkdown>{message.content}</ReactMarkdown>
                   </div>
                 )}

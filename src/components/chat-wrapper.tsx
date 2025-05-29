@@ -34,6 +34,7 @@ const ChatWrapper = () => {
               onChange={handleInputChange}
               onKeyDown={handleKeyDown}
               className="text-neutral-950 focus-visible:outline-none w-full text-wrap resize-none text-xl md:text-lg"
+              dir="auto"
             />
             <button
               type="submit"
