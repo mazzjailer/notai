@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "notAI",
+  title: "notChat",
   description: "a simple AI chat app",
 };
 

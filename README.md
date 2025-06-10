@@ -1,3 +1,3 @@
-notAI
+notChat
 
 in progress...

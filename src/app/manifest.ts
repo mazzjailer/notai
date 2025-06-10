@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'notAI',
-    short_name: 'notAI',
+    name: 'notChat',
+    short_name: 'notChat',
     description: 'a simple ai chat app.',
     start_url: '/',
     display: 'standalone',
